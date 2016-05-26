@@ -1,0 +1,23 @@
+Sources Used:
+
+- Installing Tweepy with Google App Engine:
+	http://kpopsnaps.blogspot.com/2015/03/updating-tweepy-to-v330-on-google-app.html
+
+----------------------------------------------------------------------------------------------------------------------------
+
+APIs and Software:
+
+- Python 2.7
+	https://www.python.org/downloads/
+- Google App Engine (for Python 2.7)
+	https://cloud.google.com/appengine/docs
+- Tweepy
+	https://github.com/tweepy/tweepy.git
+- Six
+	https://pypi.python.org/pypi/six
+- Requests
+	https://github.com/kennethreitz/requests.git
+- Requests OAuthLib
+	https://github.com/requests/requests-oauthlib.git
+- OAuthLib.common
+	https://github.com/idan/oauthlib.git

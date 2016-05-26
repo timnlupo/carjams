@@ -1,4 +1,6 @@
+import fix_path
 import webapp2
+import tweepy
 from tweepy import *
 
 class MainPage(webapp2.RequestHandler):
@@ -10,7 +12,7 @@ class MainPage(webapp2.RequestHandler):
 
 		public_tweets = api.home_timeline()
 		for tweet in public_tweets:
-		    print tweet.text
+		   print tweet.text
 
 app = webapp2.WSGIApplication([
     ('/', MainPage),
