@@ -1,7 +1,11 @@
 Sources Used:
 
-- Installing Tweepy with Google App Engine:
+- Installing Tweepy with Google App Engine
 	http://kpopsnaps.blogspot.com/2015/03/updating-tweepy-to-v330-on-google-app.html
+- API "requests" and "urllib3" libraries broken for Google App Engine Fix
+	https://github.com/shazow/urllib3/issues/618
+- Local Sandbox Issue Only - "Permission denied" on Google App Engine Tweepy
+	http://stackoverflow.com/questions/16192916/importerror-no-module-named-ssl-with-dev-appserver-py-from-google-app-engine/34738909#34738909
 
 ----------------------------------------------------------------------------------------------------------------------------
 
@@ -16,8 +20,11 @@ APIs and Software:
 - Six
 	https://pypi.python.org/pypi/six
 - Requests
-	https://github.com/kennethreitz/requests.git
+	https://pypi.python.org/pypi/requests/2.6.0#downloads
+	(*BROKEN FOR GAE*) https://github.com/kennethreitz/requests.git
 - Requests OAuthLib
 	https://github.com/requests/requests-oauthlib.git
 - OAuthLib.common
 	https://github.com/idan/oauthlib.git
+-urllib3
+	https://github.com/shazow/urllib3/releases/tag/1.15
