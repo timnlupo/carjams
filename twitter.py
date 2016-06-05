@@ -3,18 +3,18 @@ from twitter import *
 
 t = Twitter(
     auth=OAuth(
-        consumer_key='Hie6B2gTK7DxZ7NkV4GZPsWMd',
-        consumer_secret='gdvQgSMH7weKm7mtWLTOggVMn3wFe5WaMgbRFAQFmIN3sJ5s2V',
-        token='4049670291-kEklQ68NeyfjV6TLEeKl0HgO0FcGMBKUVUdrDyF',
-        token_secret='AH2T7EhChEU8gp6EP4gYZVbVATYyi3IwZs7bkUyofPp7X'
+        consumer_key='rxk2uZazCTE9nC0JVXoqs5aqM',
+        consumer_secret='wIj6KffXIGncGIQs0rayZodb4RFBTW8U2RRXghRlC1ZV7bd4Zq',
+        token='730015918831632385-YynAbmdnGdpdGh20XQJYdIk9yfkSb49',
+        token_secret='w9mUfVxCIFlu0J0FX7P08ORvhRWDbeM1v3IrWQcPDSxwJ'
     )
 )
 
 auth = twitter.OAuth(
-    consumer_key='Hie6B2gTK7DxZ7NkV4GZPsWMd',
-    consumer_secret='gdvQgSMH7weKm7mtWLTOggVMn3wFe5WaMgbRFAQFmIN3sJ5s2V',
-    token='4049670291-kEklQ68NeyfjV6TLEeKl0HgO0FcGMBKUVUdrDyF',
-    token_secret='AH2T7EhChEU8gp6EP4gYZVbVATYyi3IwZs7bkUyofPp7X'
+    consumer_key='rxk2uZazCTE9nC0JVXoqs5aqM',
+    consumer_secret='wIj6KffXIGncGIQs0rayZodb4RFBTW8U2RRXghRlC1ZV7bd4Zq',
+    token='730015918831632385-YynAbmdnGdpdGh20XQJYdIk9yfkSb49',
+    token_secret='w9mUfVxCIFlu0J0FX7P08ORvhRWDbeM1v3IrWQcPDSxwJ'
 )
 
 stream = twitter.stream.TwitterStream(auth=auth, domain='userstream.twitter.com')

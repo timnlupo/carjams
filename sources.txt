@@ -15,6 +15,9 @@ APIs and Software:
 	https://www.python.org/downloads/
 - Google App Engine (for Python 2.7)
 	https://cloud.google.com/appengine/docs
+
+Included in the Software Package and not neccessary for Local Installation:
+
 - Tweepy
 	https://github.com/tweepy/tweepy.git
 - Six
